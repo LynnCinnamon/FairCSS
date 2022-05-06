@@ -1,5 +1,9 @@
 
 
+:root.wired button:hover {
+  color: black !important;
+}
+
 :root.wired body {
 
     --button-color: #c1b492;
