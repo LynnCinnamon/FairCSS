@@ -1,6 +1,6 @@
 
 
-:root.candy body {
+:root.weird body {
 
     --button-color: #c1b492;
     --main-color: #bf8599;
@@ -16,63 +16,63 @@
     background-blend-mode: screen;
 }
 
-:root.candy .promoted td {
+:root.weird .promoted td {
     color: var(--main-color) !important;
 }
 
-:root.candy .promoted {
+:root.weird .promoted {
     background-color: rgba(0, 0, 0, 0.25) !important;
 }
 
-:root.candy thead th {
+:root.weird thead th {
     background-color: rgba(0, 0, 0, 0.94) !important;
     font-size: 1.1rem !important;
 }
 
-:root.candy thead {
+:root.weird thead {
     top: -.5rem !important;
 }
 
-:root.candy tr {
+:root.weird tr {
     font-size: 1.05rem !important;
 }
 
-:root.candy tr:not(.promoted, .you) td {
+:root.weird tr:not(.promoted, .you) td {
     color: var(--secondary-color) !important;
     background-color: var(--active-color) !important;
 }
 
-:root.candy nav {
+:root.weird nav {
     background-color: rgba(0, 0, 0, 0.8) !important;
 }
 
-:root.candy .message {
+:root.weird .message {
     padding-right: 5px !important;
 }
 
-:root.candy .message-header {
+:root.weird .message-header {
     justify-content: space-around;
 }
 
-:root.candy .message-date {
+:root.weird .message-date {
     color: #c1b492bb !important;
     opacity: 0.8 !important;
     align-content: flex-end;
 }
 
-:root.candy body:before {
+:root.weird body:before {
 
     background-position: 50% 0;
 }
 
 
-:root.candy .text-highlight,
-:root.candy .message-user-id,
-:root.candy .chat-mention-user-id {
+:root.weird .text-highlight,
+:root.weird .message-user-id,
+:root.weird .chat-mention-user-id {
     color: var(--secondary-color) !important;
 }
 
-:root.candy table {
+:root.weird table {
     -ms-overflow-style: none;
     /* Internet Explorer 10+ */
     scrollbar-width: none;
@@ -80,30 +80,30 @@
     margin-bottom: 4px;
 }
 
-:root.candy table::-webkit-scrollbar {
+:root.weird table::-webkit-scrollbar {
     display: none;
     /* Safari and Chrome */
 }
 
-:root.candy table thead tr {
+:root.weird table thead tr {
     color: var(--secondary-color) !important;
     font-size: 1.1rem !important;
 }
 
-:root.candy table tbody tr {
+:root.weird table tbody tr {
     font-size: 1.05rem !important;
 }
 
-:root.candy tbody:first:child {
+:root.weird tbody:first:child {
     position: sticky;
 }
 
-:root.candy .btn,
-:root.candy a {
+:root.weird .btn,
+:root.weird a {
     cursor: url("https://fauux.neocities.org/cursor2.gif"), auto !important;
 }
 
-:root.candy btn-group .dropdown {
+:root.weird btn-group .dropdown {
     border-radius: .25rem;
     border-top-left-radius: 0.25rem;
     border-bottom-left-radius: 0.25rem;
@@ -112,55 +112,55 @@
 
 }
 
-:root.candy #chatInput,
-:root.candy .btn-outline-primary,
-:root.candy .btn-outline-primary[data-v-02a2ccc4],
-:root.candy .btn-outline-primary[data-v-c6031280] {
+:root.weird #chatInput,
+:root.weird .btn-outline-primary,
+:root.weird .btn-outline-primary[data-v-02a2ccc4],
+:root.weird .btn-outline-primary[data-v-c6031280] {
     color: var(--secondary-color) !important;
     border-color: var(--main-color) !important;
     outline-color: var(--main-color) !important;
 }
 
-:root.candy #chatInput::placeholder {
+:root.weird #chatInput::placeholder {
     color: var(--secondary-color) !important;
 }
 
-:root.candy .btn-outline-primary.active,
-:root.candy .btn-outline-primary.show .btn-outline-primary.hover {
+:root.weird .btn-outline-primary.active,
+:root.weird .btn-outline-primary.show .btn-outline-primary.hover {
     background-color: var(--main-color) !important;
 }
 
-:root.candy #chatInput[data-v-02a2ccc4] {
+:root.weird #chatInput[data-v-02a2ccc4] {
     color: var(--main-color) !important;
     border: 1px solid var(--main-color);
 }
 
-:root.candy .navbar .navbar-toggler,
-:root.candy .navbar .navbar-toggler i {
+:root.weird .navbar .navbar-toggler,
+:root.weird .navbar .navbar-toggler i {
     color: var(--main-color) !important;
     border-color: var(--main-color) !important;
 }
 
-:root.candy .you {
+:root.weird .you {
     background-color: var(--secondary-color) !important;
     color: #000 !important;
 }
 
-:root.candy .you .text-end {
+:root.weird .you .text-end {
     font-weight: bold;
 }
 
-:root.candy .chat-window {
+:root.weird .chat-window {
     height: 97% !important;
 }
 
-:root.candy .chat-content,
-:root.candy .row .py-1 .ladder-row {
+:root.weird .chat-content,
+:root.weird .row .py-1 .ladder-row {
     scrollbar-width: none;
 }
 
-:root.candy .message-header,
-:root.candy .chat-mention,
-:root.candy .chat-mention-at {
+:root.weird .message-header,
+:root.weird .chat-mention,
+:root.weird .chat-mention-at {
     color: var(--main-color) !important;
 }
