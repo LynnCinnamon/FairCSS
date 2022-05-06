@@ -1,7 +1,7 @@
 
 
 :root.wired button:hover {
-  color: black;
+  color: black !important;
 }
 
 :root.wired body {
