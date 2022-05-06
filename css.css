@@ -1,7 +1,7 @@
 
 
 :root.wired button:hover {
-  color: black !important;
+  color: black;
 }
 
 :root.wired body {
@@ -15,43 +15,43 @@
     font-family: 'Consolas', sans-serif;
     cursor: url("https://fauux.neocities.org/cursor.gif"), auto;
     opacity: 1;
-    color: var(--main-color) !important;
+    color: var(--main-color);
     background-image: url('https://fauux.neocities.org/bg205.gif');
     background-blend-mode: screen;
 }
 
 :root.wired .promoted td {
-    color: var(--main-color) !important;
+    color: var(--main-color);
 }
 
 :root.wired .promoted {
-    background-color: rgba(0, 0, 0, 0.25) !important;
+    background-color: rgba(0, 0, 0, 0.25);
 }
 
 :root.wired thead th {
-    background-color: rgba(0, 0, 0, 0.94) !important;
-    font-size: 1.1rem !important;
+    background-color: rgba(0, 0, 0, 0.94);
+    font-size: 1.1rem;
 }
 
 :root.wired thead {
-    top: -.5rem !important;
+    top: -.5rem;
 }
 
 :root.wired tr {
-    font-size: 1.05rem !important;
+    font-size: 1.05rem;
 }
 
 :root.wired tr:not(.promoted, .you) td {
-    color: var(--secondary-color) !important;
-    background-color: var(--active-color) !important;
+    color: var(--secondary-color);
+    background-color: var(--active-color);
 }
 
 :root.wired nav {
-    background-color: rgba(0, 0, 0, 0.8) !important;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 :root.wired .message {
-    padding-right: 5px !important;
+    padding-right: 5px;
 }
 
 :root.wired .message-header {
@@ -59,8 +59,8 @@
 }
 
 :root.wired .message-date {
-    color: #c1b492bb !important;
-    opacity: 0.8 !important;
+    color: #c1b492bb;
+    opacity: 0.8;
     align-content: flex-end;
 }
 
@@ -73,7 +73,7 @@
 :root.wired .text-highlight,
 :root.wired .message-user-id,
 :root.wired .chat-mention-user-id {
-    color: var(--secondary-color) !important;
+    color: var(--secondary-color);
 }
 
 :root.wired table {
@@ -90,12 +90,12 @@
 }
 
 :root.wired table thead tr {
-    color: var(--secondary-color) !important;
-    font-size: 1.1rem !important;
+    color: var(--secondary-color);
+    font-size: 1.1rem;
 }
 
 :root.wired table tbody tr {
-    font-size: 1.05rem !important;
+    font-size: 1.05rem;
 }
 
 :root.wired tbody:first:child {
@@ -104,7 +104,7 @@
 
 :root.wired .btn,
 :root.wired a {
-    cursor: url("https://fauux.neocities.org/cursor2.gif"), auto !important;
+    cursor: url("https://fauux.neocities.org/cursor2.gif"), auto;
 }
 
 :root.wired btn-group .dropdown {
@@ -120,34 +120,34 @@
 :root.wired .btn-outline-primary,
 :root.wired .btn-outline-primary[data-v-02a2ccc4],
 :root.wired .btn-outline-primary[data-v-c6031280] {
-    color: var(--secondary-color) !important;
-    border-color: var(--main-color) !important;
-    outline-color: var(--main-color) !important;
+    color: var(--secondary-color);
+    border-color: var(--main-color);
+    outline-color: var(--main-color);
 }
 
 :root.wired #chatInput::placeholder {
-    color: var(--secondary-color) !important;
+    color: var(--secondary-color);
 }
 
 :root.wired .btn-outline-primary.active,
 :root.wired .btn-outline-primary.show .btn-outline-primary.hover {
-    background-color: var(--main-color) !important;
+    background-color: var(--main-color);
 }
 
 :root.wired #chatInput[data-v-02a2ccc4] {
-    color: var(--main-color) !important;
+    color: var(--main-color);
     border: 1px solid var(--main-color);
 }
 
 :root.wired .navbar .navbar-toggler,
 :root.wired .navbar .navbar-toggler i {
-    color: var(--main-color) !important;
-    border-color: var(--main-color) !important;
+    color: var(--main-color);
+    border-color: var(--main-color);
 }
 
 :root.wired .you {
-    background-color: var(--secondary-color) !important;
-    color: #000 !important;
+    background-color: var(--secondary-color);
+    color: #000;
 }
 
 :root.wired .you .text-end {
@@ -155,7 +155,7 @@
 }
 
 :root.wired .chat-window {
-    height: 97% !important;
+    height: 97%;
 }
 
 :root.wired .chat-content,
@@ -166,5 +166,5 @@
 :root.wired .message-header,
 :root.wired .chat-mention,
 :root.wired .chat-mention-at {
-    color: var(--main-color) !important;
+    color: var(--main-color);
 }
