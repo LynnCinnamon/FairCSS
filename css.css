@@ -120,9 +120,9 @@
 :root.wired .btn-outline-primary,
 :root.wired .btn-outline-primary[data-v-02a2ccc4],
 :root.wired .btn-outline-primary[data-v-c6031280] {
-    color: var(--secondary-color);
-    border-color: var(--main-color);
-    outline-color: var(--main-color);
+    color: var(--secondary-color) !important;
+    border-color: var(--main-color) !important;
+    outline-color: var(--main-color) !important;
 }
 
 :root.wired #chatInput::placeholder {
