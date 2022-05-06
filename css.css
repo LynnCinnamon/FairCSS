@@ -1,156 +1,166 @@
 
 
-		body{
-			
-		  --button-color: #c1b492;
-		  --main-color: #bf8599;
-		  --secondary-color: #fab9c8;
-			--active-color: #c1b49222;
-			--button-hover-background-color: var(--secondary-color);
+:root.candy body {
 
-	    font-family: 'Consolas', sans-serif;
-		  cursor: url("https://fauux.neocities.org/cursor.gif"), auto;
-      opacity: 1;
-      color: var(--main-color) !important;
-			#background-color: #020611;
-      background-image: url('https://fauux.neocities.org/bg205.gif');
-      // background-image: url('https://fauux.neocities.org/bg_303.gif');
-      // background-image: url('https://fauux.neocities.org/bg_304.gif');
-      // background-image: url('https://fauux.neocities.org/bg_315.gif');
-      // background-image: url('https://fauux.neocities.org/wind6.gif');
-			// background-image: url('https://fauux.neocities.org/Static2.gif');
-      // background-image: url('https://fauux.neocities.org/bg_308.gif');
-      // background-image: url('https://fauux.neocities.org/patternTV2.gif');
-      // background-image: url('https://fauux.neocities.org/bg/bg_rgb_2fst.gif');
-      // background-image: url('https://fauux.neocities.org/bg/bgN6.gif');
+    --button-color: #c1b492;
+    --main-color: #bf8599;
+    --secondary-color: #fab9c8;
+    --active-color: #c1b49222;
+    --button-hover-background-color: var(--secondary-color);
 
-      // background-image: url('https://fauux.neocities.org/bg_76.gif');
-			background-blend-mode: screen;
-    }
+    font-family: 'Consolas', sans-serif;
+    cursor: url("https://fauux.neocities.org/cursor.gif"), auto;
+    opacity: 1;
+    color: var(--main-color) !important;
+    background-image: url('https://fauux.neocities.org/bg205.gif');
+    background-blend-mode: screen;
+}
 
+:root.candy .promoted td {
+    color: var(--main-color) !important;
+}
 
-		.promoted td {
-			color: var(--main-color) !important;
-    }
-    .promoted {
-			background-color:rgba(0, 0, 0, 0.25) !important;
-		}
+:root.candy .promoted {
+    background-color: rgba(0, 0, 0, 0.25) !important;
+}
 
-		thead th{
-			background-color:rgba(0, 0, 0, 0.94) !important;
-			font-size: 1.1rem !important;
-    }
-    thead {
-			top: -.5rem !important;
-    }
-		tr {
-			font-size: 1.05rem !important;
-		}
+:root.candy thead th {
+    background-color: rgba(0, 0, 0, 0.94) !important;
+    font-size: 1.1rem !important;
+}
 
-		tr:not(.promoted, .you) td {
-			color: var(--secondary-color) !important;
-			background-color: var(--active-color) !important;
-		}
+:root.candy thead {
+    top: -.5rem !important;
+}
 
-		nav {
-			background-color: rgba(0, 0, 0, 0.8) !important;
-		}
-		.message {
-			padding-right: 5px !important;
-		}
-		.message-header {
-			justify-content: space-around;
-		}
+:root.candy tr {
+    font-size: 1.05rem !important;
+}
 
-		.message-date {
-			color: #c1b492bb !important;
-			opacity: 0.8 !important;
-			align-content: flex-end;
-		}
+:root.candy tr:not(.promoted, .you) td {
+    color: var(--secondary-color) !important;
+    background-color: var(--active-color) !important;
+}
 
-		body:before {
+:root.candy nav {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
 
-      background-position: 50% 0;
-		}
+:root.candy .message {
+    padding-right: 5px !important;
+}
+
+:root.candy .message-header {
+    justify-content: space-around;
+}
+
+:root.candy .message-date {
+    color: #c1b492bb !important;
+    opacity: 0.8 !important;
+    align-content: flex-end;
+}
+
+:root.candy body:before {
+
+    background-position: 50% 0;
+}
 
 
-		.text-highlight, .message-user-id, .chat-mention-user-id{
-      color: var(--secondary-color) !important;
-		}
+:root.candy .text-highlight,
+:root.candy .message-user-id,
+:root.candy .chat-mention-user-id {
+    color: var(--secondary-color) !important;
+}
 
-		table {
-      -ms-overflow-style: none;  /* Internet Explorer 10+ */
-      scrollbar-width: none;  /* Firefox */
-			margin-bottom: 4px;
-    }
-    table::-webkit-scrollbar { 
-        display: none;  /* Safari and Chrome */
-    }
+:root.candy table {
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    /* Firefox */
+    margin-bottom: 4px;
+}
 
-    table thead tr {
-      color: var(--secondary-color) !important;
-			font-size: 1.1rem !important;
-    }
-    table tbody tr {
-			font-size: 1.05rem !important;
-    }
+:root.candy table::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+}
 
-		tbody:first:child {
-			position: sticky;
-		}
+:root.candy table thead tr {
+    color: var(--secondary-color) !important;
+    font-size: 1.1rem !important;
+}
 
-		.btn, a{
-		  cursor: url("https://fauux.neocities.org/cursor2.gif"), auto !important;
-		}
+:root.candy table tbody tr {
+    font-size: 1.05rem !important;
+}
 
-		btn-group .dropdown {
-			border-radius: .25rem;
-      border-top-left-radius: 0.25rem;
-      border-bottom-left-radius: 0.25rem;
-      border-top-left-radius: 0;
-      border-bottom-left-radius: 0;
-		
-		}
+:root.candy tbody:first:child {
+    position: sticky;
+}
 
-		#chatInput, .btn-outline-primary, .btn-outline-primary[data-v-02a2ccc4], .btn-outline-primary[data-v-c6031280] {
-      color: var(--secondary-color) !important;
-      border-color: var(--main-color) !important;
-      outline-color: var(--main-color) !important;
-    }
+:root.candy .btn,
+:root.candy a {
+    cursor: url("https://fauux.neocities.org/cursor2.gif"), auto !important;
+}
 
-		#chatInput::placeholder {
-      color: var(--secondary-color) !important;
-		}
-		.btn-outline-primary.active, .btn-outline-primary.show .btn-outline-primary.hover {
-			background-color: var(--main-color) !important;
-    }
+:root.candy btn-group .dropdown {
+    border-radius: .25rem;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 
-	  #chatInput[data-v-02a2ccc4]{
-			color: var(--main-color) !important;
-			border: 1px solid var(--main-color);
-    }
+}
 
-    .navbar .navbar-toggler, .navbar .navbar-toggler i {
-			color: var(--main-color) !important;
-			border-color: var(--main-color) !important;
-		}
+:root.candy #chatInput,
+:root.candy .btn-outline-primary,
+:root.candy .btn-outline-primary[data-v-02a2ccc4],
+:root.candy .btn-outline-primary[data-v-c6031280] {
+    color: var(--secondary-color) !important;
+    border-color: var(--main-color) !important;
+    outline-color: var(--main-color) !important;
+}
 
-    .you {
-      background-color: var(--secondary-color) !important;
-			color: #000 !important;
-		}
-		.you .text-end {
-			font-weight: bold;
-		}
+:root.candy #chatInput::placeholder {
+    color: var(--secondary-color) !important;
+}
 
-		.chat-window {
-			height: 97% !important;
-    }
-    .chat-content, .row .py-1 .ladder-row {
-			scrollbar-width: none;
-    }
+:root.candy .btn-outline-primary.active,
+:root.candy .btn-outline-primary.show .btn-outline-primary.hover {
+    background-color: var(--main-color) !important;
+}
 
-		.message-header, .chat-mention, .chat-mention-at{
-			color: var(--main-color) !important;
-    }
-`
+:root.candy #chatInput[data-v-02a2ccc4] {
+    color: var(--main-color) !important;
+    border: 1px solid var(--main-color);
+}
+
+:root.candy .navbar .navbar-toggler,
+:root.candy .navbar .navbar-toggler i {
+    color: var(--main-color) !important;
+    border-color: var(--main-color) !important;
+}
+
+:root.candy .you {
+    background-color: var(--secondary-color) !important;
+    color: #000 !important;
+}
+
+:root.candy .you .text-end {
+    font-weight: bold;
+}
+
+:root.candy .chat-window {
+    height: 97% !important;
+}
+
+:root.candy .chat-content,
+:root.candy .row .py-1 .ladder-row {
+    scrollbar-width: none;
+}
+
+:root.candy .message-header,
+:root.candy .chat-mention,
+:root.candy .chat-mention-at {
+    color: var(--main-color) !important;
+}
