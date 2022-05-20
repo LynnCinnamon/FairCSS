@@ -1,6 +1,6 @@
 
 
-:root.wired button::not(.accordion-button):hover {
+:root.wired button:not(.accordion-button):hover {
   color: black !important;
 }
 
