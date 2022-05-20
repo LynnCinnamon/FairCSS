@@ -174,19 +174,3 @@
     --eta-mid: orange;
     --eta-worst: red;
 }
-
-@keyframes etaProgressWired {
-    0% {
-      color: var(--eta-best);
-    }
-    50% {
-      color: var(--eta-mid);
-    }
-    100% {
-      color: var(--eta-worst);
-    }
-}
-
-:root.wired .etaProgress {
-    animation: 101s linear paused etaProgressWired;
-}
