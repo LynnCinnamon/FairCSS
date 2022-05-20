@@ -168,3 +168,9 @@
 :root.wired .chat-mention-at {
     color: var(--main-color);
 }
+
+:root.wired {
+    --eta-best: green;
+    --eta-mid: orange;
+    --eta-worst: red;
+}
