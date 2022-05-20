@@ -177,16 +177,16 @@
 
 @keyframes etaProgressWired {
     0% {
-      color: green;
+      color: var(--eta-best);
     }
     50% {
-      color: orange;
+      color: var(--eta-mid);
     }
     100% {
-      color: red;
+      color: var(--eta-worst);
     }
 }
 
-:root.wired .etaProgressAnim[data-v-14392dd8] {
-    animation: etaProgressWired 10s infinite;
+:root.wired .etaProgress {
+    animation: 101s linear paused etaProgressWired;
 }
