@@ -187,6 +187,6 @@
     }
 }
 
-:root.wired .etaProgress {
+:root.wired .etaProgressAnim[data-v-14392dd8] {
     animation: 101s linear paused etaProgressWired;
 }
