@@ -188,5 +188,5 @@
 }
 
 :root.wired .etaProgressAnim[data-v-14392dd8] {
-    animation: 101s linear paused etaProgressWired;
+    animation: etaProgressWired 10s infinite;
 }
