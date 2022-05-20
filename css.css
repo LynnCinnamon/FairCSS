@@ -177,13 +177,13 @@
 
 @keyframes etaProgressWired {
     0% {
-      color: var(--eta-best);
+      color: green;
     }
     50% {
-      color: var(--eta-mid);
+      color: orange;
     }
     100% {
-      color: var(--eta-worst);
+      color: red;
     }
 }
 
