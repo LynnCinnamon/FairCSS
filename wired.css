@@ -173,4 +173,8 @@
     --eta-best: green;
     --eta-mid: orange;
     --eta-worst: red;
+
+    --can-afford: darkgreen;
+    --cannot-afford: rgb(180, 0, 0);
+    --non-pinning: #b18f37;
 }
